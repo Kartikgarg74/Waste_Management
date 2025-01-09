@@ -6,33 +6,11 @@ This repository contains the complete codebase, models, and evaluation metrics u
 
 ## 📂 **Repository Structure**  
 ```plaintext
-├── data/
-│   ├── MSW_Dataset.csv        # Preprocessed dataset used for training and evaluation
-│   ├── Original_Dataset.csv   # Raw dataset (if applicable)
-│
 ├── models/
 │   ├── Linear_Regression.pkl  # Trained Linear Regression model
 │   ├── Random_Forest.pkl      # Trained Random Forest model
 │   ├── Gradient_Boosting.pkl  # Trained Gradient Boosting model
 │   └── ...                    # Additional models
-│
-├── plots/
-│   ├── Model_Performance.png  # Comparison of evaluation metrics across models
-│   ├── MSW_vs_Population.png  # Relationship between MSW and Population
-│   ├── Feature_Importance.png # Feature importance (for tree-based models)
-│   └── ...                    # Additional plots
-│
-├── notebooks/
-│   ├── MSW_Prediction.ipynb   # Jupyter notebook for data preprocessing and model training
-│   ├── Model_Evaluation.ipynb # Jupyter notebook for evaluation and visualization
-│
-├── src/
-│   ├── preprocessing.py       # Scripts for data preprocessing and feature engineering
-│   ├── train.py               # Model training scripts
-│   ├── evaluate.py            # Model evaluation scripts
-│   └── utils.py               # Utility functions
-│
-├── LICENSE
 ├── README.md                  # This file
 └── requirements.txt           # Python dependencies
 ```
